@@ -1,0 +1,120 @@
+body{
+background:#fff0f5;
+font-family:Segoe UI,sans-serif;
+}
+
+.menu{
+background:#ffa4d9;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+color:#eca8d8;
+font-weight:bold;
+}
+
+.hero p{
+font-size:22px;
+}
+
+.imagen-principal{
+max-width:700px;
+border-radius:20px;
+margin-top:20px;
+box-shadow:0 0 20px rgba(158, 14, 103, 0.2);
+}
+
+.titulo{
+text-align:center;
+color:#d63384;
+font-weight:bold;
+margin-bottom:40px;
+}
+
+.tarjeta{
+border:none;
+border-radius:20px;
+box-shadow:0 0 15px rgba(0, 0, 0, 0.1);
+transition:.3s;
+}
+
+.tarjeta:hover{
+transform:scale(1.03);
+}
+
+#ofertas{
+background:#ffd6e7;
+padding:60px 0;
+}
+
+.galeria{
+border-radius:20px;
+margin-bottom:20px;
+box-shadow:0 0 15px rgba(0,0,0,.15);
+}
+
+.boton{
+background:#e75480;
+color:white;
+}
+
+footer{
+background:#e75480;
+padding:40px;
+text-align:center;
+color:white;
+}
+
+.redes{
+font-size:35px;
+margin-bottom:20px;
+}
+
+.redes a{
+color:white;
+margin:15px;
+text-decoration:none;
+}
+
+.redes a:hover{
+color:#ffd6e7;
+}
+.slider{
+    width: 500px;
+    height: 330px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.slide-track{
+    display: flex;
+    width: 1500px;
+    animation: mover 9s infinite;
+}
+
+.slide-track img {
+    width: 500px;
+    height: 330px;
+    flex: 0 0 500px;
+    object-fit: contain;
+}
+
+@keyframes mover{
+    0%,25%{
+        transform: translateX(0);
+    }
+    33%,58%{
+        transform: translateX(-500px);
+    }
+    66%,91%{
+        transform: translateX(-1000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
